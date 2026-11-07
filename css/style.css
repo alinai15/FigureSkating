@@ -90,7 +90,7 @@ header {
 .btn1 {
     border-radius: 50px;
     background-color: #1F4162;
-    padding: 20 40;
+    padding: 10px 20px;
     width: 225px;
     height: 55px;
     display: flex;
