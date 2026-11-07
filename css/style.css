@@ -117,6 +117,9 @@ header {
 /* banner начало */
 .banner {
     background-image: url(../image/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .banner-block {
@@ -179,6 +182,9 @@ header {
 /* о школе начало */
 .about {
     background-image: url(../image/awarding-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     max-height: 800px;
 }
 
@@ -280,6 +286,9 @@ header {
 /* наши тренеры начало */
 .coaches {
     background-image: url(../image/coaches-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .coaches-block {
@@ -355,6 +364,9 @@ header {
 
 .acard {
     background: linear-gradient(to right, #9CD1F9, #EAF6FF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .acard-block {
@@ -582,6 +594,9 @@ header {
 /* вопросы начало */
 .quest {
     background-image: url(../image/quest-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .quest-block {
@@ -623,6 +638,7 @@ header {
     border-radius: 15px;
     padding: 18px 20px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .quest-block summary {
@@ -630,6 +646,7 @@ header {
     font-size: 17px;
     font-weight: bold;
     text-align: left;
+    pointer-events: none;
 }
 
 
@@ -649,7 +666,9 @@ header {
 /* как добраться начало */
 .location {
     background-image: url(../image/arena.png);
-    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .location-block {
@@ -745,6 +764,9 @@ header {
 /* заявка начало */
 .form {
     background-image: url(../image/zayavka-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .form-block {
@@ -783,6 +805,7 @@ header {
     background-color: white;
     color: #03315F;
     font-size: 15px;
+    border: 1px solid lightgray;
 }
 
 .form-z input[type="tel"] {
@@ -793,6 +816,7 @@ header {
     background-color: white;
     color: #03315F;
     font-size: 15px;
+    border: 1px solid lightgray;
 }
 
 .form-check {
@@ -806,7 +830,6 @@ header {
     width: 16px;
     height: 16px;
     cursor: pointer;
-    accent-color: #284265;
 }
 
 .form-check label {
@@ -818,7 +841,6 @@ header {
 
 .form-check label a {
     color: #284265;
-    
 }
 
 .form-btn {
@@ -835,7 +857,7 @@ header {
 }
 
 .form-btn:hover{
-    color: white;
+    color: #03315F;
     background-color: transparent;
     border: 1px solid black;
 }
@@ -847,6 +869,9 @@ header {
 /* footer начало */
 footer {
     background-image: url(../image/footer-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .footer-block {
